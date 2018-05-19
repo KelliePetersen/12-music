@@ -1,0 +1,76 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("http://www.ledzeppelin.com//sites/g/files/g2000006376/f/201706/led_zeppelin_photo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: #fff;
+  width: 560px;
+  margin: 0 auto;
+}
+
+header, section {
+  position: fixed;
+  width: 560px;
+  text-align: center;
+  background-color: #fff;
+}
+
+section {
+  top: 80px;
+}
+
+#logo {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+}
+
+span {
+  font-family: sans-serif;
+  letter-spacing: 0px;
+}
+
+main {
+  padding: 400px 18px 10px;
+  font-family: sans-serif;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+article:hover {
+  border: 2px solid #232323;
+  cursor: pointer;
+}
+
+.thumb {
+  height: 70px;
+  border-radius: 8px;
+}
+
+h4, p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+p {
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.details {
+  padding: 8px 22px;
+}

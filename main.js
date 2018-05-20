@@ -28,7 +28,11 @@ $(document).ready(function() {
     $.each(data.items, function(i, item) {
       let thumb = item.snippet.thumbnails.medium.url;
       let title = item.snippet.title;
-      let description = item.snippet.description.substring(0, 100);
+      let description = item.snippet.description;
+      if (description.length > 100) {
+        description = description.substring(0, 100);
+        description += '...';
+      }
       let video = item.snippet.resourceId.videoId;
       $("main").append(`
       <article class="item" data-key="${video}">

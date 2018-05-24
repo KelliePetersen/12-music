@@ -1,4 +1,4 @@
-let key = "AIzaSyD1ZBaqZAlaGiylTH7Oi7Cy97_SEby-BDI";
+let key = "#";
 let playlistId = "PLJ19iZsXIWCGEPgGiCm_ySuko9qg1e2aS";
 let URL = "https://www.googleapis.com/youtube/v3/playlistItems";
 
